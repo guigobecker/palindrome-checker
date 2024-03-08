@@ -7,5 +7,6 @@ function inverterString(str) {
 function verificarString() {
     const str = entrada.value;
     const inverso = inverterString(str);
-    alert(inverso);
+    
+    str === inverso ? alert('É um palíndromo!') : alert('Não é um palíndromo.');
 }
