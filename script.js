@@ -10,5 +10,5 @@ function verificarString() {
     
     str === inverso ? alert('É um palíndromo!') : alert('Não é um palíndromo.');
 
-    input.value = '';
+    entrada.value = '';
 }
