@@ -9,4 +9,6 @@ function verificarString() {
     const inverso = inverterString(str);
     
     str === inverso ? alert('É um palíndromo!') : alert('Não é um palíndromo.');
+
+    input.value = '';
 }
