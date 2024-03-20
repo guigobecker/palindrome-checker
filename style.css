@@ -83,6 +83,14 @@ h1 {
   background-color: #e23d28;
 }
 
-.esconde {
-  display: none;
+.escondido {
+  transition: opacity 0.2s ease, visibility 0s linear 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visivel {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease;
 }
