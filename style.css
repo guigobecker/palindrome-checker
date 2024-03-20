@@ -39,10 +39,30 @@ h1 {
   padding: 20px 25px;
   font-size: 1rem;
   background-color: #f5f5dc;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 ::placeholder {
   color: #303030;
   opacity: 1;
+}
+
+.input-container button {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #3457d5;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.input-container button:hover {
+  opacity: 0.8;
+}
+
+.input-container button:active {
+  outline: 3px solid #349ad5;
 }
