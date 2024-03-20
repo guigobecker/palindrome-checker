@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body, html {
@@ -65,4 +66,23 @@ h1 {
 
 .input-container button:active {
   outline: 3px solid #349ad5;
+}
+
+.alerta {
+  padding: 15px 30px;
+  position: absolute;
+  top: 10px;
+  border-radius: 10px;
+}
+
+.sim {
+  background-color: #00693e;
+}
+
+.nao {
+  background-color: #e23d28;
+}
+
+.esconde {
+  display: none;
 }
