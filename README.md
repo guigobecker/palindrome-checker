@@ -2,6 +2,10 @@
 
 Verifique se uma palavra é ou não um palíndromo.
 
+## Acessar
+
+<li>Acesse em <a href="https://verifica-palindromo.vercel.app/">verifica-palindromo.vercel.app</a>.</li>
+
 ## Tecnologias Utilizadas
 
 <li>JavaScript</li>
